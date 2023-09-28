@@ -7,6 +7,6 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_PASSWORD: root
-      POSTGRES_DB: hackernews
-    container_name: hackernewsDB
+      POSTGRES_DB: KairosDB
+    container_name: postgres-kairosDB
     
